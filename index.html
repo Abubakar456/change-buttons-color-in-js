@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="title">
+            Change Buttons Color
+        </div>
+        <div class="button-container">
+            <select name="color-picker" id="colorPicker" class="color-picker" onchange="changeColor(this)">
+                <option value="reset">Reset</option>
+                <option value="blue">Blue</option>
+                <option value="red">Red</option>
+                <option value="yellow">Yellow</option>
+                <option value="green">Green</option>
+            </select>
+            <button id="btnBlue" class="btn btn-primary">Facebook</button>
+            <button id="BtnRed" class="btn btn-danger">Youtube</button>
+            <button id="BtnYellow" class="btn btn-warning">Microsoft</button>
+            <button id="BtnGreen" class="btn btn-success">Google</button>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
